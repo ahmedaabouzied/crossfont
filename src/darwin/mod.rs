@@ -80,7 +80,7 @@ impl Descriptor {
             // many chars. We add the symbols back in.
             // Investigate if we can actually use the .-prefixed
             // fallbacks somehow.
-            if let Ok(apple_symbols) = new_from_name("Source Code Pro", size) {
+            if let Ok(apple_symbols) = new_from_name("Hack Nerd Font", size) {
                 fallbacks.push(Font { ct_font: apple_symbols, fallbacks: Vec::new() })
             };
 
